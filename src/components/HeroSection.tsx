@@ -1,4 +1,6 @@
 import heroImage from "@/assets/hero-quantum.jpg";
+import tudelftLogo from "@/assets/tudelft-logo.png";
+import qiskitLogo from "@/assets/qiskit-logo.png";
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Users } from "lucide-react";
 
@@ -18,6 +20,13 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="space-y-8">
+          {/* Logos */}
+          <div className="flex items-center justify-center gap-8 mb-8">
+            <img src={qiskitLogo} alt="Qiskit Logo" className="h-16 md:h-20 opacity-90" />
+            <div className="w-px h-16 bg-primary/30"></div>
+            <img src={tudelftLogo} alt="TU Delft Logo" className="h-16 md:h-20 opacity-90" />
+          </div>
+          
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-quantum bg-clip-text text-transparent">
               Qiskit Fall Fest
@@ -25,6 +34,9 @@ const HeroSection = () => {
             <h2 className="text-3xl md:text-4xl font-semibold text-foreground">
               2025
             </h2>
+            <p className="text-2xl md:text-3xl font-semibold text-primary mb-4">
+              Qiskit Fall Fest is coming to TU Delft!
+            </p>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
               Join the premier quantum computing conference featuring cutting-edge research, 
               hands-on workshops, and the latest innovations in quantum technology.
@@ -47,10 +59,15 @@ const HeroSection = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gradient-quantum text-background font-semibold px-8 py-6 text-lg shadow-quantum hover:shadow-glow transition-all duration-500">
+            <Button size="lg" className="bg-gradient-quantum text-background font-semibold px-8 py-6 text-lg shadow-quantum hover:shadow-glow hover:scale-105 transition-all duration-500">
               Register Now
             </Button>
-            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 px-8 py-6 text-lg">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="border-primary text-primary hover:bg-primary/20 hover:scale-105 px-8 py-6 text-lg transition-all duration-300"
+              onClick={() => document.getElementById('schedule')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               View Schedule
             </Button>
           </div>

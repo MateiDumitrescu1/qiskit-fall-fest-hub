@@ -48,7 +48,7 @@ const scheduleItems = [
 
 const ScheduleSection = () => {
   return (
-    <section className="py-20 px-6 bg-background">
+    <section id="schedule" className="py-20 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-quantum bg-clip-text text-transparent">
