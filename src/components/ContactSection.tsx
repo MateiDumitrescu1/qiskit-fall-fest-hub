@@ -3,10 +3,8 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone, ExternalLink } from "lucide-react";
-
 const ContactSection = () => {
-  return (
-    <section className="py-20 px-6 bg-background">
+  return <section className="py-20 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-quantum bg-clip-text text-transparent">
@@ -45,9 +43,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <p className="text-muted-foreground">
-                      contact@qiskitfallfest.org
-                    </p>
+                    <p className="text-muted-foreground">a.ilinescu@student.tudelft.nl</p>
                   </div>
                 </div>
                 
@@ -72,14 +68,11 @@ const ContactSection = () => {
                 Register Now
               </Button>
               <p className="text-sm text-muted-foreground mt-4">
-                Registration opens soon - stay tuned!
-              </p>
+            </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;

@@ -3,17 +3,11 @@ import tudelftLogo from "@/assets/tudelft-logo.png";
 import qiskitLogo from "@/assets/qiskit-logo.png";
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Users } from "lucide-react";
-
 const HeroSection = () => {
-    return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
             {/* Background */}
             <div className="absolute inset-0 bg-gradient-hero">
-                <img
-                    src={heroImage}
-                    alt="Quantum computing visualization"
-                    className="w-full h-full object-cover opacity-35 mix-blend-overlay"
-                />
+                <img src={heroImage} alt="Quantum computing visualization" className="w-full h-full object-cover opacity-35 mix-blend-overlay" />
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50" />
             </div>
 
@@ -36,9 +30,7 @@ const HeroSection = () => {
                         <h1 className="text-5xl md:text-7xl font-bold bg-gradient-quantum bg-clip-text text-transparent">
                             Qiskit Fall Fest
                         </h1>
-                        <h2 className="text-3xl md:text-4xl font-semibold text-foreground">
-                            2025
-                        </h2>
+                        <h2 className="text-3xl md:text-4xl font-semibold text-foreground">November, 2025</h2>
                         <p className="text-2xl md:text-3xl font-semibold text-primary mb-4">
                             Qiskit Fall Fest is coming to TU Delft!
                         </p>
@@ -67,12 +59,9 @@ const HeroSection = () => {
                         <Button size="lg" className="bg-gradient-quantum text-background font-semibold px-8 py-6 text-lg shadow-quantum hover:shadow-glow hover:scale-105 transition-all duration-500">
                             Register Now
                         </Button>
-                        <Button
-                            variant="outline"
-                            size="lg"
-                            className="border-primary text-primary hover:bg-primary/20 hover:scale-105 px-8 py-6 text-lg transition-all duration-300"
-                            onClick={() => document.getElementById('schedule')?.scrollIntoView({ behavior: 'smooth' })}
-                        >
+                        <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/20 hover:scale-105 px-8 py-6 text-lg transition-all duration-300" onClick={() => document.getElementById('schedule')?.scrollIntoView({
+            behavior: 'smooth'
+          })}>
                             View Schedule
                         </Button>
                     </div>
@@ -86,8 +75,6 @@ const HeroSection = () => {
                 <div className="absolute bottom-1/3 left-1/3 w-1.5 h-1.5 bg-primary rounded-full animate-ping delay-1000"></div>
                 <div className="absolute top-2/3 right-1/4 w-1 h-1 bg-accent rounded-full animate-pulse delay-500"></div>
             </div>
-        </section>
-    );
+        </section>;
 };
-
 export default HeroSection;
