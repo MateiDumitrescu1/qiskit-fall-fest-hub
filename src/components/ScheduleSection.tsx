@@ -42,7 +42,7 @@ const scheduleItems = [
     title: "Final Competition & Ceremony",
     description: "Quantum challenge competition and closing remarks",
     icon: Trophy,
-    duration: "1.5 hours"
+    duration: "2.5 hours"
   }
 ];
 
