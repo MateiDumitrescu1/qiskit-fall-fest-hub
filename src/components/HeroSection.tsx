@@ -56,7 +56,7 @@ const HeroSection = () => {
                     </div>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Button size="lg" className="bg-gradient-quantum text-background font-semibold px-8 py-6 text-lg shadow-quantum hover:shadow-glow hover:scale-105 transition-all duration-500">
+                        <Button size="lg" className="bg-gradient-quantum text-background font-semibold px-8 py-6 text-lg shadow-quantum hover:shadow-glow hover:scale-105 transition-all duration-500" onClick={() => window.open('https://forms.gle/jWTS8AL3nX3LDdXt9', '_blank')}>
                             Register Now
                         </Button>
                         <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/20 hover:scale-105 px-8 py-6 text-lg transition-all duration-300" onClick={() => document.getElementById('schedule')?.scrollIntoView({
