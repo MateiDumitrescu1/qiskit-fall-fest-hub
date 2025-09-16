@@ -63,7 +63,7 @@ const ContactSection = () => {
             </Card>
             
             <div className="text-center">
-              <Button size="lg" className="bg-gradient-quantum text-background font-semibold px-8 py-6 text-lg shadow-quantum hover:shadow-glow hover:scale-105 transition-all duration-500 w-full sm:w-auto">
+              <Button size="lg" className="bg-gradient-quantum text-background font-semibold px-8 py-6 text-lg shadow-quantum hover:shadow-glow hover:scale-105 transition-all duration-500 w-full sm:w-auto" onClick={() => window.open('https://forms.gle/jWTS8AL3nX3LDdXt9', '_blank')}>
                 <ExternalLink className="w-5 h-5 mr-2" />
                 Register Now
               </Button>
