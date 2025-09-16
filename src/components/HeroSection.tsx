@@ -43,7 +43,7 @@ const HeroSection = () => {
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-muted-foreground">
                         <div className="flex items-center gap-2">
                             <Calendar className="w-5 h-5 text-primary" />
-                            <span>October 2025</span>
+                            <span>November 2025</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <MapPin className="w-5 h-5 text-primary" />
