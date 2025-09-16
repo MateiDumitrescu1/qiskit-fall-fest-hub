@@ -28,7 +28,7 @@ const scheduleItems = [
     title: "Hands-on Workshop",
     description: "Interactive Qiskit programming session",
     icon: Wrench,
-    duration: "2 hours"
+    duration: "2.5 hours"
   },
   {
     time: "15:30",
