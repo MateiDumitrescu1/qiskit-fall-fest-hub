@@ -18,14 +18,14 @@ const scheduleItems = [
   },
   {
     time: "10:30",
-    title: "Rihan",
-    description: "Special presentation session",
+    title: "Dr. Rihan Hai",
+    description: "Quantum Data Management in the NISQ Era and Beyond",
     icon: Presentation,
     duration: "30 minutes"
   },
   {
     time: "11:15",
-    title: "QuTech",
+    title: "Prof. Vandersypen",
     description: "Presentation from QuTech research institute",
     icon: Presentation,
     duration: "1 hour"
