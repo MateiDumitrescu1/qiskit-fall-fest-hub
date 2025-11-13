@@ -3,7 +3,7 @@ import rihanHaiPhoto from "@/assets/rihan-hai.jpg";
 
 const speakers = [
   {
-    name: "Dr. Rihan Hai",
+    name: "Prof. Rihan Hai",
     title: "Assistant Professor, TU Delft",
     photo: rihanHaiPhoto,
     talkTitle: "Quantum Data Management in the NISQ Era and Beyond",

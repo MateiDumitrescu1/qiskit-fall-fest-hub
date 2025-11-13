@@ -18,7 +18,7 @@ const scheduleItems = [
   },
   {
     time: "10:30",
-    title: "Dr. Rihan Hai",
+    title: "Prof. Rihan Hai",
     description: "Quantum Data Management in the NISQ Era and Beyond",
     icon: Presentation,
     duration: "30 minutes"
