@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import rihanHaiPhoto from "@/assets/rihan-hai.jpg";
+import lievenVandersypenPhoto from "@/assets/lieven-vandersypen.jpg";
 
 const speakers = [
   {
@@ -9,6 +10,14 @@ const speakers = [
     talkTitle: "Quantum Data Management in the NISQ Era and Beyond",
     talkAbstract: "Quantum computing is one of the most exciting frontiers in science and technology, offering radically new ways to compute through entanglement, superposition, and measurement. But today's NISQ systems remain noisy, limited in scale, and hard to program. This leaves a wide gap between elegant algorithms and real-world applications. A critical part of bridging that gap is data: how we define quantum data, move it across classical and quantum systems, and design storage and processing models that make quantum computing truly usable. In this talk, I'll introduce the emerging field of quantum data management and explore how fresh ideas in data representation, system design, and workflow integration are beginning to drive this field forward. We'll look at how classical data systems can support quantum computation, how hybrid architectures connect classical and quantum components, and how rethinking data for the quantum world opens new possibilities in software, privacy, and systems research. I'll outline the key ways data and computation converge in the quantum era, highlighting the challenges and opportunities they create for the future of computing. My goal is to share a clear vision of where this field is heading, and to inspire new ideas and contributions that will shape the data foundations of our quantum future.",
     bio: "Rihan Hai is an Assistant Professor at Delft University of Technology, Netherlands. She leads the InfiniData team at TU Delft, working on data systems for AI and quantum. She received her doctorate degree from RWTH Aachen and was nominated for the university's Friedrich Wilhelm Best Dissertation Award. She was awarded the NWO Veni personal grant, VLDB Distinguished PC Member Awards (2024, 2025), the SIGMOD 2025 Best Demo Runner-Up, and the EDBT 2023 Best Demo Award. She founded the DBML and International Workshop on Quantum Data and Machine Learning workshop series and serves broadly on top-tier database conferences as PCs. Her recent research centers on quantum data management, with a strong focus on data-intensive simulators and quantum-native database systems."
+  },
+  {
+    name: "Prof. Lieven Vandersypen",
+    title: "Antoni van Leeuwenhoek Professor, QuTech & TU Delft",
+    photo: lievenVandersypenPhoto,
+    talkTitle: "Quantum computing – from fascination to technology",
+    talkAbstract: "Join us for an exploration of quantum computing's evolution from fundamental science to practical technology, led by one of the field's pioneers.",
+    bio: "Lieven Vandersypen received his PhD in Electrical Engineering from Stanford University (2001), where he famously demonstrated Shor's quantum algorithm for finding the prime factors of fifteen. Since 2006, he has been Antoni van Leeuwenhoek professor at TU Delft, where he leads a group that pioneered quantum computing based on electron spins in semiconductor quantum dots. His work focuses on devising novel building blocks for large-scale quantum dot spin qubit processors. Prof. Vandersypen has received Starting, Synergy and Advanced grants from the European Research Council, and is a fellow of the American Physical Society. He is a member of the Royal Netherlands Academy of Arts and Sciences and received the Spinoza Prize, the highest scientific award in the Netherlands."
   }
 ];
 
@@ -25,7 +34,7 @@ const SpeakersSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-1 gap-12 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-1 gap-12 max-w-5xl mx-auto">
           {speakers.map((speaker, index) => (
             <Card key={index} className="overflow-hidden bg-gradient-card border-border/50 shadow-lg hover:shadow-quantum transition-all duration-500">
               <div className="md:flex">
