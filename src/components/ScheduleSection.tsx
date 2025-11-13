@@ -40,7 +40,7 @@ const scheduleItems = [
   {
     time: "13:00",
     title: "EduQuation",
-    description: "Educational session on quantum computing",
+    description: "Intuitive-based learning using board games and video games",
     icon: Presentation,
     duration: "45 minutes"
   },
