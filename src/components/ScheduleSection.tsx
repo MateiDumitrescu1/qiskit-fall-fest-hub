@@ -4,45 +4,66 @@ import { Clock, Coffee, Presentation, Wrench, Trophy, Users } from "lucide-react
 const scheduleItems = [
   {
     time: "10:00",
-    title: "Welcome & Registration",
+    title: "Arrival & Registration",
     description: "Check-in and networking with fellow quantum enthusiasts",
     icon: Users,
-    duration: "1 hour"
+    duration: "15 minutes"
   },
   {
-    time: "11:00",
-    title: "Opening Keynote",
-    description: "Latest developments in quantum computing and Qiskit",
+    time: "10:15",
+    title: "Welcome Talk",
+    description: "Opening remarks and introduction to the event",
     icon: Presentation,
-    duration: "1.5 hours"
+    duration: "15 minutes"
   },
   {
-    time: "12:30",
-    title: "Coffee Break",
-    description: "Networking and refreshments",
-    icon: Coffee,
+    time: "10:30",
+    title: "Rihan",
+    description: "Special presentation session",
+    icon: Presentation,
     duration: "30 minutes"
   },
   {
-    time: "13:00",
-    title: "Hands-on Workshop",
-    description: "Interactive Qiskit programming session",
-    icon: Wrench,
-    duration: "2.5 hours"
-  },
-  {
-    time: "15:30",
-    title: "IBM Special Speaker",
-    description: "Industry insights from IBM Quantum team",
+    time: "11:15",
+    title: "QuTech",
+    description: "Presentation from QuTech research institute",
     icon: Presentation,
     duration: "1 hour"
   },
   {
-    time: "16:30",
-    title: "Final Competition & Ceremony",
-    description: "Quantum challenge competition and closing remarks",
+    time: "12:15",
+    title: "Lunch Break",
+    description: "Networking and refreshments",
+    icon: Coffee,
+    duration: "45 minutes"
+  },
+  {
+    time: "13:00",
+    title: "EduQuation",
+    description: "Educational session on quantum computing",
+    icon: Presentation,
+    duration: "45 minutes"
+  },
+  {
+    time: "14:00",
+    title: "Workshop",
+    description: "Hands-on practical session",
+    icon: Wrench,
+    duration: "45 minutes"
+  },
+  {
+    time: "15:00",
+    title: "Coding Competition",
+    description: "Quantum programming challenge",
     icon: Trophy,
-    duration: "2.5 hours"
+    duration: "50 minutes"
+  },
+  {
+    time: "16:00",
+    title: "IBM Speaker",
+    description: "Industry insights from IBM Quantum team",
+    icon: Presentation,
+    duration: "1 hour"
   }
 ];
 
