@@ -111,7 +111,18 @@ const ScheduleSection = () => {
                             </span>
                           </div>
                           <h3 className="text-xl font-semibold text-foreground mb-2">
-                            {item.title}
+                            {item.title === "EduQuation" ? (
+                              <a 
+                                href="https://www.eduquation.nl/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="hover:text-primary transition-colors underline decoration-primary/30 hover:decoration-primary"
+                              >
+                                {item.title}
+                              </a>
+                            ) : (
+                              item.title
+                            )}
                           </h3>
                           <p className="text-muted-foreground">
                             {item.description}
