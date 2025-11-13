@@ -25,8 +25,8 @@ const scheduleItems = [
   },
   {
     time: "11:15",
-    title: "Prof. Vandersypen",
-    description: "Presentation from QuTech research institute",
+    title: "Prof. Lieven Vandersypen",
+    description: "Quantum computing – from fascination to technology",
     icon: Presentation,
     duration: "1 hour"
   },
