@@ -18,17 +18,17 @@ const scheduleItems = [
   },
   {
     time: "10:30",
-    title: "Prof. Rihan Hai",
-    description: "Quantum Data Management in the NISQ Era and Beyond",
-    icon: Presentation,
-    duration: "30 minutes"
-  },
-  {
-    time: "11:15",
     title: "Prof. Lieven Vandersypen",
     description: "Quantum computing – from fascination to technology",
     icon: Presentation,
     duration: "1 hour"
+  },
+  {
+    time: "11:15",
+    title: "Prof. Rihan Hai",
+    description: "Quantum Data Management in the NISQ Era and Beyond",
+    icon: Presentation,
+    duration: "30 minutes"
   },
   {
     time: "12:15",
