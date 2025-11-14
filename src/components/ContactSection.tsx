@@ -31,8 +31,9 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Location</h4>
                     <p className="text-muted-foreground">
-                      TU Delft Campus<br />
-                      Delft, Netherlands
+                      Pulse Hall 1, TU Delft Campus<br />
+                      Delft, Netherlands<br />
+                      Saturday, November 15th, 2025
                     </p>
                   </div>
                 </div>
