@@ -30,7 +30,7 @@ const HeroSection = () => {
                         <h1 className="text-5xl md:text-7xl font-bold bg-gradient-quantum bg-clip-text text-transparent">
                             Qiskit Fall Fest
                         </h1>
-                        <h2 className="text-3xl md:text-4xl font-semibold text-foreground">November, 2025</h2>
+                        <h2 className="text-3xl md:text-4xl font-semibold text-foreground">Saturday, November 15th, 2025</h2>
                         <p className="text-2xl md:text-3xl font-semibold text-primary mb-4">
                             Qiskit Fall Fest is coming to TU Delft!
                         </p>
@@ -43,11 +43,11 @@ const HeroSection = () => {
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-muted-foreground">
                         <div className="flex items-center gap-2">
                             <Calendar className="w-5 h-5 text-primary" />
-                            <span>November 2025</span>
+                            <span>Saturday, November 15th</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <MapPin className="w-5 h-5 text-primary" />
-                            <span>Virtual & In-Person</span>
+                            <span>Pulse Hall 1, TU Delft Campus</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Users className="w-5 h-5 text-primary" />
