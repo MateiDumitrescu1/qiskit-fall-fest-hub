@@ -1,4 +1,6 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { FileText } from "lucide-react";
 import rihanHaiPhoto from "@/assets/rihan-hai.jpg";
 import lievenVandersypenPhoto from "@/assets/lieven-vandersypen.jpg";
 
@@ -70,6 +72,17 @@ const SpeakersSection = () => {
                       {speaker.bio}
                     </p>
                   </div>
+                  
+                  {speaker.name === "Prof. Rihan Hai" && (
+                    <div className="mt-6">
+                      <Button asChild variant="outline" className="gap-2">
+                        <a href="/slides/rihan-hai-slides.pdf" target="_blank" rel="noopener noreferrer">
+                          <FileText className="w-4 h-4" />
+                          View Presentation Slides
+                        </a>
+                      </Button>
+                    </div>
+                  )}
                 </div>
               </div>
             </Card>

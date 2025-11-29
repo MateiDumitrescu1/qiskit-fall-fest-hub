@@ -120,6 +120,15 @@ const ScheduleSection = () => {
                               >
                                 {item.title}
                               </a>
+                            ) : item.title === "Prof. Rihan Hai" ? (
+                              <a 
+                                href="/slides/rihan-hai-slides.pdf" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="hover:text-primary transition-colors underline decoration-primary/30 hover:decoration-primary"
+                              >
+                                {item.title}
+                              </a>
                             ) : (
                               item.title
                             )}
